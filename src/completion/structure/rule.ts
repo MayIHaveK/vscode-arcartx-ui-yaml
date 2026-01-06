@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import {controls_empty, controls_with_adaptive, tips_adaptive, tips_base, ui_base, ui_full} from "./rule/root";
+import {controls_empty, controls_with_adaptive, tips_adaptive, tips_base, ui_base, ui_full, entity_model_base} from "./rule/root";
 import {ui_options} from "./rule/ui";
 import {ui_actions} from "./rule/uiAction";
 import {packetHandler_options} from "./rule/uiPacketHandler";
@@ -47,6 +47,7 @@ const root_level: CompletionConfig[] = [
             ui_full, ui_base,
             tips_base, tips_adaptive,
             controls_empty, controls_with_adaptive,
+            entity_model_base,
         ]
     },
 ];
